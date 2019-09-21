@@ -1,7 +1,6 @@
 from __future__ import absolute_import, division, print_function
 from builtins import *
 
-# from dbaccess import get_clusterinfo, buildvlanrecord, del_vlanrecord, get_vlanrecord
 
 import requests
 
