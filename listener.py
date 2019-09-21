@@ -8,7 +8,7 @@ import websocket
 
 from datetime import datetime
 
-from apic.query import build_subscription, refresh_subscription, refresh_apic, get_constructs, process_tags
+from apic.query import build_subscription, refresh_subscription, refresh_apic
 
 
 ssl._create_default_https_context = ssl._create_unverified_context
@@ -225,7 +225,7 @@ def on_close(ws):
     print("### closed ###")
 
 
-def start(apic_ip, cookie, apic_url, cname, cpwd):
+def start(apic_ip, cookie, apic_url):
 
     global apicip
     global token
