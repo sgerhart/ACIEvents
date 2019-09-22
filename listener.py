@@ -194,9 +194,13 @@ def on_message(ws, message):
 
                         print("Static Attach Event")
 
+                        print(i)
+
                     else:
 
                         print("Static Attach Event")
+
+                        print(i)
 
 
                 elif str(i['fvRsPathAtt']['attributes']['status']) == 'deleted':
@@ -205,9 +209,13 @@ def on_message(ws, message):
 
                         print("Static Delete Event")
 
+                        print(i)
+
                     else:
 
                         print("Static Delete Event")
+
+                        print(i)
 
             except:
 
