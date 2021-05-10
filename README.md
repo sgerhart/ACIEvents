@@ -45,5 +45,5 @@ Example:
     
     
 The next step is to add a section under the on_message function which is located in listener.py. When a message is received, it
-will be a formatted in JSON, so just parse it and build a upon it. 
+will be a formatted in JSON, so just parse it and build upon it. 
 
